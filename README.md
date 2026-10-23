@@ -1,5 +1,13 @@
 ﻿# ComfyUI-DisableComfyCompiler
 
+> [!IMPORTANT]
+> **This repo has moved.** The node is now part of **[ComfyUI-RulZnodes](https://github.com/speedyrulz/ComfyUI-RulZnodes)**,
+> together with the HEIC Load Image, Load Image Batch (Simple) and Mask Intelligent Crop nodes. This repo is
+> archived and won't get updates.
+>
+> To switch, delete this folder from `custom_nodes` and install ComfyUI-RulZnodes. The node ID is unchanged,
+> so existing workflows keep working.
+
 A per-workflow replacement for the `--disable-comfy-compiler` launch flag.
 
 The **Disable Comfy Compiler** node (`advanced/model`) takes a `MODEL` and returns a clone that
